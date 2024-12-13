@@ -1,7 +1,7 @@
 import requests
 import json
 
-# GitHub API URL for listing repositories of an organization
+# GitHub API URL for listing repositories of an organization.
 GITHUB_API_URL = "https://api.github.com/orgs/{}/repos"
 
 # List of organization names

@@ -1,0 +1,59 @@
+{
+    "阿里巴巴":[
+        "Qwen",
+        "Qwen-VL",
+        "Qwen-Audio",
+        "Qwen-Coder",
+        "Qwen-Math",
+        "QwQ"
+    ],
+    "智谱AI":[
+        "ChatGLM4",
+        "CogVideo",
+        "CodeGeeX4",
+        "CogVLM2",
+        "GLM-Edge"
+    ],
+    "BAAI":[
+        "Emu3",
+        "BGE",
+        "CCI",
+        "Aquila",
+        "Infinity MM",
+        "Infinity Instruct"
+    ],
+    "OpenLMLab":[
+        "MOSS"
+    ],
+    "面壁智能":[
+        "MiniCPM",
+        "CPM-Bee",
+        "MiniCPM-V",
+        "Ultra Series",
+        "Eurus"
+    ],
+    "上海ALab":[
+        "InternLM",
+        "InternVL",
+        "InternImage",
+        "InternVideo",
+        "VideoChat"
+    ],
+    "百川智能":[
+        "Baichuan"
+    ],
+    "IDEA研究院":[
+        "姜子牙",
+        "二郎神",
+        "太乙"
+    ],
+    "元象科技":[
+        "XVERSE"
+    ],
+    "零一万物":[
+        "YI"
+    ],
+    "昆仑万维":[
+        "Skywork"
+    ]
+}

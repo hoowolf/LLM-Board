@@ -1,0 +1,663 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "name": "阿里巴巴",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 936.5979483090159,
+            "y": -110.13393365851222,
+            "text": "Qwen是阿里巴巴集团Qwen团队研发的大语言模型和大型多模态模型系列。目前，大语言模型已升级至Qwen2.5版本。无论是语言模型还是多模态模型，均在大规模多语言和多模态数据上进行预训练，并通过高质量数据进行后期微调以贴近人类偏好。Qwen具备自然语言理解、文本生成、视觉理解、音频理解、工具使用、角色扮演、作为AI Agent进行互动等多种能力。",
+            "url": "https://qwen.readthedocs.io/zh-cn/latest/index.html",
+            "github": "https://github.com/QwenLM",
+            "huf": "https://huggingface.co/Qwen"
+        },
+        {
+            "id": "101",
+            "name": "Qwen2.5",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 993.074389116231,
+            "y": -227.40858512213265
+        },
+        {
+            "id": "102",
+            "name": "Qwen2-VL",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 707.9292069618627,
+            "y": -162.3257168658655
+        },
+        {
+            "id": "103",
+            "name": "Qwen2-Audio",
+            "symbolSize": 50,
+            "category": 7,
+            "x": 936.5973259100626,
+            "y": -344.68373293042566
+        },
+        {
+            "id": "104",
+            "name": "Qwen2.5-Coder",
+            "symbolSize": 50,
+            "category": 5,
+            "x": 809.69569465329,
+            "y": -373.6476454170813
+        },
+        {
+            "id": "105",
+            "name": "Qwen2.5-Math",
+            "symbolSize": 50,
+            "category": 6,
+            "x": 809.6964707707157,
+            "y": -81.16934768251758
+        },
+        {
+            "id": "106",
+            "name": "QwQ",
+            "symbolSize": 50,
+            "category": 4,
+            "x": 707.9288615572962,
+            "y": -292.49073613773135
+        },
+        {
+            "id": "2",
+            "name": "智谱AI",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 122.44928223304967,
+            "y": 391.1067333872696,
+            "text": "智谱AI，全称为北京智谱华章科技有限公司，是一家源自清华大学计算机系技术成果转化而来的高科技公司6。自2019年6月11日成立以来，智谱AI一直致力于推动人工智能技术的边界，特别是在认知智能领域，旨在打造新一代的认知智能通用模型，并专注于大模型的中国创新。",
+            "url": "https://www.zhipuai.cn/",
+            "github": "https://github.com/THUDM",
+            "huf": "https://huggingface.co/THUDM"
+        },
+        {
+            "id": "201",
+            "name": "GLM4",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 249.35091348982226,
+            "y": 420.0706458739253
+        },
+        {
+            "id": "202",
+            "name": "CogVideo",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 305.8279766959906,
+            "y": 537.3457936822183
+        },
+        {
+            "id": "203",
+            "name": "CodeGeeX4",
+            "symbolSize": 50,
+            "category": 5,
+            "x": 20.682449137055812,
+            "y": 472.2636426666196
+        },
+        {
+            "id": "204",
+            "name": "CogVLM2",
+            "symbolSize": 50,
+            "category": 4,
+            "x": 20.68279454162237,
+            "y": 602.4286619384854
+        },
+        {
+            "id": "205",
+            "name": "GLM4-Voice",
+            "symbolSize": 50,
+            "category": 7,
+            "x": 249.35153588877557,
+            "y": 654.6204451458387
+        },
+        {
+            "id": "206",
+            "name": "GLM-Edge",
+            "symbolSize": 50,
+            "category": 8,
+            "x": 122.45005835047529,
+            "y": 683.5850311218334
+        },
+        {
+            "id": "3",
+            "name": "BAAI",
+            "symbolSize": 80,
+            "category": 1,
+            "x": -419.0307331441278,
+            "y": 703.6256056248507,
+            "text": "北京智源人工智能研究院(Beijing Academy of Artificial Intelligence，简称“智源研究院”)是一家成立于2018年的人工智能领域新型研发机构。它是在科技部和北京市的支持下，联合北京多家在人工智能领域具有优势的单位共同建立的。智源研究院致力于成为推动人工智能领域发展政策、学术思想、理论基础、顶尖人才与产业生态五大源头创新的重要力量。",
+            "url": "https://www.baai.ac.cn/",
+            "github": "https://github.com/FlagAI-Open",
+            "huf": "https://huggingface.co/BAAI"
+        },
+        {
+            "id": "301",
+            "name": "Emu3",
+            "symbolSize": 50,
+            "category": 3,
+            "x": -520.7983423575472,
+            "y": 492.3042171696369
+        },
+        {
+            "id": "302",
+            "name": "悟道·天鹰Aquila",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -292.1292556058275,
+            "y": 674.661019648856
+        },
+        {
+            "id": "303",
+            "name": "悟道·天鹰AquilaCode",
+            "symbolSize": 50,
+            "category": 5,
+            "x": -235.65281479861244,
+            "y": 557.3863681852356
+        },
+        {
+            "id": "304",
+            "name": "AltCLIP",
+            "symbolSize": 50,
+            "category": 3,
+            "x": -520.7979969529807,
+            "y": 622.4692364415027
+        },
+        {
+            "id": "305",
+            "name": "AltDiffusion",
+            "symbolSize": 50,
+            "category": 3,
+            "x": -292.12987800478083,
+            "y": 440.1112203769426
+        },
+        {
+            "id": "4",
+            "name": "OpenLMLab",
+            "symbolSize": 80,
+            "category": 1,
+            "x": -774.0837086774098,
+            "y": -246.55664678799315,
+            "text": "OpenLMLab是复旦大学邱锡鹏教授成立自然语言处理开源平台项目。因其发布的MOSS模型而被大家所知。OpenLMLab是上海人工智能实验室“OpenXLab浦源”人工智能开源开放体系的重要发展项目之一，致力于构建领先的自然语言处理能力平台，促进NLP技术产业落地。",
+            "url": "https://nlp.fudan.edu.cn/",
+            "github": "https://github.com/OpenLMLab",
+            "huf": "https://huggingface.co/fnlp"
+        },
+        {
+            "id": "401",
+            "name": "MOSS",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -1074.0837086768818,
+            "y": -246.55624874952414
+        },
+        {
+            "id": "5",
+            "name": "OpenBMB",
+            "symbolSize": 80,
+            "category": 0,
+            "x": -636.234780366816,
+            "y": 314.9079343093939,
+            "text": "OpenBMB，全称Open Lab for Big Model Base，是由清华大学自然语言处理实验室与面壁智能共同支持发起的新一代人工智能开源开放平台5。这个平台的目标是打造一个大规模预训练语言模型库及相关工具，以加速百亿级乃至更大规模的大模型的训练、微调与推理过程，同时降低这些大模型的应用门槛，使得更多的开发者和研究者能够轻松地利用大模型进行创新和发展。",
+            "url": "https://www.openbmb.cn/home",
+            "github": "https://github.com/OpenBMB",
+            "huf": "https://huggingface.co/OpenBMB"
+        },
+        {
+            "id": "501",
+            "name": "MiniCPM",
+            "symbolSize": 50,
+            "category": 8,
+            "x": -636.2354697893157,
+            "y": 55.10044585456839
+        },
+        {
+            "id": "502",
+            "name": "CPM-Bee",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -711.2350101740226,
+            "y": 185.00438910091074
+        },
+        {
+            "id": "503",
+            "name": "MiniCPM-V",
+            "symbolSize": 50,
+            "category": 8,
+            "x": -411.23501017455067,
+            "y": 185.00399106244174
+        },
+        {
+            "id": "504",
+            "name": "Ultra Series",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -486.2355846943273,
+            "y": 55.09984879732218
+        },
+        {
+            "id": "505",
+            "name": "Eurus",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -486.2348952707714,
+            "y": 314.90773529031185
+        },
+        {
+            "id": "6",
+            "name": "OpenGVLab",
+            "symbolSize": 80,
+            "category": 1,
+            "x": 32.259478716072124,
+            "y": -645.5712986738931,
+            "text": "书生通用视觉开源开放平台。OpenGVLab是面向学术界和产业界发布的高效预训练模型，实现了分类、目标检测、语义分割及深度估计四大任务26个场景性能显著提升，仅用10%的数据便可超越OpenAI的CLIP模型。目前，OpenGVLab书生 2.0正在打造涵盖数据、模型、评测、标准和应用等的通用视觉技术体系，帮助开发者快速降低通用视觉模型开发门槛。",
+            "url": "https://opengvlab.shlab.org.cn/home",
+            "github": "https://github.com/OpenGVLab",
+            "huf": "https://huggingface.co/OpenGVLab"
+        },
+        {
+            "id": "601",
+            "name": "InternVL",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 199.96425208956612,
+            "y": -700.0625714983616
+        },
+        {
+            "id": "602",
+            "name": "InternImage",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 199.9650092041172,
+            "y": -414.74546901040014
+        },
+        {
+            "id": "603",
+            "name": "InternVideo",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 303.6123086250693,
+            "y": -557.4038972543323
+        },
+        {
+            "id": "604",
+            "name": "VideoChat",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 32.2599466380142,
+            "y": -469.2358517947513
+        },
+        {
+            "id": "7",
+            "name": "百川智能",
+            "symbolSize": 80,
+            "category": 0,
+            "x": -463.7528183900871,
+            "y": -532.9197772559883,
+            "text": "百川智能是一家由中国著名企业家王小川和茹立云联合创立的人工智能公司，成立于2023年4月10日。这家公司旨在打造中国版的OpenAI基础大模型及颠覆性上层应用，专注于研发并提供通用人工智能服务。百川智能的核心团队由来自搜狗、百度、华为、微软、字节跳动、腾讯等知名科技公司的顶尖AI人才组成，体现了其强大的技术背景和发展潜力。",
+            "url": "https://www.baichuan-ai.com/home",
+            "github": "https://github.com/baichuan-inc",
+            "huf": "https://huggingface.co/baichuan-inc"
+        },
+        {
+            "id": "701",
+            "name": "Baichuan",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -763.752818389559,
+            "y": -532.9193792175192
+        },
+        {
+            "id": "8",
+            "name": "IDEA研究院",
+            "symbolSize": 80,
+            "category": 1,
+            "x": -372.2852016341009,
+            "y": -43.63299436654168,
+            "text": "粤港澳大湾区数字经济研究院（International Digital Economy Academy，简称IDEA研究院）是一家面向人工智能、数字经济产业及前沿科技的国际化创新型研究机构。它注册于河套深港科技创新合作区内，并致力于通过“工业AI”、“企业AI”、“AI基础技术”以及“金融AI”四个维度来探索和解决相关领域的挑战。",
+            "url": "https://www.idea.edu.cn/",
+            "github": "https://github.com/IDEA-CCNL",
+            "huf": "https://huggingface.co/IDEA-CCNL"
+        },
+        {
+            "id": "801",
+            "name": "姜子牙",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -372.28599771103893,
+            "y": -343.6329943652214
+        },
+        {
+            "id": "802",
+            "name": "二郎神",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -522.2854006528073,
+            "y": -193.63259632794066
+        },
+        {
+            "id": "803",
+            "name": "太乙",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -222.2854006533354,
+            "y": -193.63299436640966
+        },
+        {
+            "id": "9",
+            "name": "元象科技",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 704.3699654979639,
+            "y": -564.8131685522035,
+            "text": "元象科技，正式名称为深圳元象信息科技有限公司，是一家成立于2020年11月12日的高新技术企业，位于中国广东省深圳市南山区。公司由前腾讯副总裁和腾讯AI Lab创始人姚星担任法定代表人。元象科技自成立以来，迅速成长为一家专注于AI与3D技术结合的领先企业，致力于打造AI驱动的3D内容生产与消费一站式平台，愿景是“定义你的世界”。",
+            "url": "https://www.xverse.cn/zh-cn",
+            "github": "https://github.com/xverse-ai",
+            "huf": "https://huggingface.co/xverse"
+        },
+        {
+            "id": "901",
+            "name": "XVERSE",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 404.369965498492,
+            "y": -564.8127705137344
+        },
+        {
+            "id": "10",
+            "name": "零一万物",
+            "symbolSize": 80,
+            "category": 0,
+            "x": -936.0162393495451,
+            "y": 523.5947426824241,
+            "text": "零一万物是一家由李开复博士亲自带队孵化的AI2.0公司，成立于2023年，总部位于北京。该公司专注于大模型技术、人工智能算法、自然语言处理、系统架构、算力架构、数据安全以及产品研发等领域。零一万物不仅致力于自研大模型的技术路线，还计划推出开源版本的模型，旨在构建一个开放且富有活力的人工智能生态系统。",
+            "url": "https://lingyiwanwu.com/",
+            "github": "https://github.com/01-ai",
+            "huf": "https://huggingface.co/01-ai"
+        },
+        {
+            "id": "1001",
+            "name": "YI",
+            "symbolSize": 50,
+            "category": 2,
+            "x": -636.0162393500732,
+            "y": 523.5943446439551
+        },
+        {
+            "id": "11",
+            "name": "昆仑万维",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 247.06755148999142,
+            "y": 198.07671138042278,
+            "text": "昆仑万维科技股份有限公司（Kunlun Tech Co., Ltd.），成立于2008年，是一家全球化的综合互联网公司，总部位于中国北京。自成立以来，昆仑万维一直致力于为用户提供丰富的互动平台和创新应用。公司的业务范围涵盖了网络游戏开发及运营、互联网产品开发运营等多个领域，并且在技术开发、技术转让、广告设计与制作、进出口贸易等方面也有所涉猎。",
+            "url": "https://skywork.kunlun.com/",
+            "github": "https://github.com/SkyworkAI",
+            "huf": "https://huggingface.co/Skywork"
+        },
+        {
+            "id": "1101",
+            "name": "Skywork",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 547.0675514894633,
+            "y": 198.07631334195378
+        },
+        {
+            "id": "12",
+            "name": "无问芯穹",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 753.1054154274063,
+            "y": 460.63330712844595,
+            "text": "无问芯穹以“释放无穹算力，让AGI触手可及”为使命，致力于通过多元异构技术优势，提供稳定充沛且性价比高的算力资源，使所有企业都能享受到最低的冷启动成本，从而推动AGI（通用人工智能）的发展。它希望将算力服务变得如同水电煤气一样便捷，开发者可以随时根据需求获取所需的算力支持。",
+            "url": "https://cloud.infini-ai.com/platform/ai",
+            "github": "https://github.com/infinigence",
+            "huf": "https://huggingface.co/Infinigence"
+        },
+        {
+            "id": "1201",
+            "name": "Megrez-3B",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 978.1058750421714,
+            "y": 590.5368523363193
+        },
+        {
+            "id": "1202",
+            "name": "Megrez-3B-Omni",
+            "symbolSize": 50,
+            "category": 3,
+            "x": 753.106104849906,
+            "y": 720.4407955832714
+        },
+        {
+            "id": "13",
+            "name": "书生",
+            "symbolSize": 80,
+            "category": 0,
+            "x": 7.031601314401743,
+            "y": -123.8319868609725,
+            "text": "书生大模型体系是由上海人工智能实验室（上海AI实验室）主导开发的一系列先进的人工智能模型，旨在推动通用人工智能（AGI）的发展。该体系不仅包括了语言、视觉等多个领域的模型，而且特别强调全链条开源体系的建设，为开发者提供了从数据集准备到模型训练、微调、部署和应用的完整解决方案。",
+            "url": "https://intern-ai.org.cn/home",
+            "github": "https://github.com/InternLM",
+            "huf": "https://github.com/InternLM"
+        },
+        {
+            "id": "1301",
+            "name": "InternLM2.5",
+            "symbolSize": 50,
+            "category": 2,
+            "x": 157.0321983721053,
+            "y": 26.16801313783924
+        },
+        {
+            "id": "1302",
+            "name": "InternLM2-Math",
+            "symbolSize": 50,
+            "category": 6,
+            "x": 7.032397391339814,
+            "y": 176.16801313770722
+        },
+        {
+            "id": "1303",
+            "name": "InternLM-XComposer2.5",
+            "symbolSize": 50,
+            "category": 3,
+            "x": -142.96780162736658,
+            "y": 26.168411176308243
+        }
+    ],
+    "links": [
+        {
+            "source": "1",
+            "target": "101"
+        },
+        {
+            "source": "1",
+            "target": "102"
+        },
+        {
+            "source": "1",
+            "target": "103"
+        },
+        {
+            "source": "1",
+            "target": "104"
+        },
+        {
+            "source": "1",
+            "target": "105"
+        },
+        {
+            "source": "1",
+            "target": "106"
+        },
+        {
+            "source": "2",
+            "target": "201"
+        },
+        {
+            "source": "2",
+            "target": "202"
+        },
+        {
+            "source": "2",
+            "target": "203"
+        },
+        {
+            "source": "2",
+            "target": "204"
+        },
+        {
+            "source": "2",
+            "target": "205"
+        },
+        {
+            "source": "2",
+            "target": "206"
+        },
+        {
+            "source": "3",
+            "target": "301"
+        },
+        {
+            "source": "3",
+            "target": "302"
+        },
+        {
+            "source": "3",
+            "target": "303"
+        },
+        {
+            "source": "3",
+            "target": "304"
+        },
+        {
+            "source": "3",
+            "target": "305"
+        },
+        {
+            "source": "3",
+            "target": "306"
+        },
+        {
+            "source": "4",
+            "target": "401"
+        },
+        {
+            "source": "5",
+            "target": "501"
+        },
+        {
+            "source": "5",
+            "target": "502"
+        },
+        {
+            "source": "5",
+            "target": "503"
+        },
+        {
+            "source": "5",
+            "target": "504"
+        },
+        {
+            "source": "5",
+            "target": "505"
+        },
+        {
+            "source": "6",
+            "target": "601"
+        },
+        {
+            "source": "6",
+            "target": "602"
+        },
+        {
+            "source": "6",
+            "target": "603"
+        },
+        {
+            "source": "6",
+            "target": "604"
+        },
+        {
+            "source": "7",
+            "target": "701"
+        },
+        {
+            "source": "8",
+            "target": "801"
+        },
+        {
+            "source": "8",
+            "target": "802"
+        },
+        {
+            "source": "8",
+            "target": "803"
+        },
+        {
+            "source": "9",
+            "target": "901"
+        },
+        {
+            "source": "10",
+            "target": "1001"
+        },
+        {
+            "source": "11",
+            "target": "1101"
+        },
+        {
+            "source": "12",
+            "target": "1201"
+        },
+        {
+            "source": "12",
+            "target": "1202"
+        },
+        {
+            "source": "13",
+            "target": "1301"
+        },
+        {
+            "source": "13",
+            "target": "1302"
+        },
+        {
+            "source": "13",
+            "target": "1303"
+        }
+    ],
+    "categories": [
+        {
+            "name": "企业机构"
+        },
+        {
+            "name": "科研机构"
+        },
+        {
+            "name": "语言模型"
+        },
+        {
+            "name": "多模态模型"
+        },
+        {
+            "name": "推理模型"
+        },
+        {
+            "name": "编程模型"
+        },
+        {
+            "name": "数学模型"
+        },
+        {
+            "name": "语音模型"
+        },
+        {
+            "name": "端侧模型"
+        }
+    ]
+}

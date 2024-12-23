@@ -131,7 +131,7 @@
             </div>
             <div class="container1">
                 <a href="https://github.com/hoowolf/LLM-Board" style="color: white; text-decoration: none;" target="_blank"> 
-                    <img src="source\github-mark-white.png" alt="github" width="32" height="32" class="github-icon">
+                    <img src="./source/github-mark-white.png" alt="github" width="32" height="32" class="github-icon">
                 </a>
                 <button class="nav-button">打赏</button>
             </div>
@@ -162,11 +162,16 @@
                         开源影响力
                     </h2>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="gridItemLink2">
                     <h2>
                         模型能力比较
                     </h2>
                 </div>
+                <script>
+                    document.getElementById('gridItemLink2').addEventListener('click', function() {
+                        window.open('./radar.html', '_blank');
+                    });
+                </script>
             </div>
 
             <div class="powered-by">

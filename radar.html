@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 模型性能对比</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .custom-select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+      background-size: 1.5em 1.5em;
+      padding-right: 2.5rem;
+    }
+    .leaderboard {
+      margin: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .leaderboard select {
+      margin-bottom: 15px;
+      padding: 5px;
+    }
+
+    .leaderboard table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .leaderboard th,
+    .leaderboard td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .leaderboard th {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <div class="container mx-auto px-4 py-8 flex-grow">
+    <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">AI 模型性能对比</h1>
+    
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-xl font-semibold mb-4 text-gray-700">评估任务说明</h2>
+      <p class="mb-4 text-gray-600"><strong>通过以下任务的表现测评模型的能力：知识测试 (📚)、短期和长期上下文推理 (💭)、复杂数学能力以及与人类偏好高度相关的任务 (🤝)，如指令遵循</strong></p>
+      <ul class="space-y-4 text-gray-700">
+        <li><strong>🤝 IFEval:</strong> IFEval 测试模型清晰遵循明确指令的能力，例如"包括关键词 x"或"使用格式 y"。模型被测试是否能够严格遵循格式指令，而不是实际生成的内容，从而可以使用严格的指标。</li>
+        <li><strong>🧮 🤝 BBH:</strong> BBH 是 BigBench 数据集中 23 个具有挑战性的任务的子集，包含多步算术和算法推理、语言理解和一些世界知识。BBH 的表现平均与人类偏好高度相关。</li>
+        <li><strong>🧮 MATH:</strong> MATH 是一个由多个来源收集的高中级别竞赛问题的汇编，使用 Latex 一致地格式化方程和 Asymptote 格式化图形。我们只保留最难的问题。</li>
+        <li><strong>📚 GPQA:</strong> GPQA 是一个极其困难的知识数据集，其中问题由领域专家设计，使得外行人难以回答但专家相对容易。问题经过多轮验证，以确保难度和准确性。</li>
+        <li><strong>💭 MuSR:</strong> MuSR 是一个由算法生成的复杂问题组成的数据集，长度约为 1000 字。为了解决这些问题，模型必须结合推理和非常长的上下文解析。</li>
+        <li><strong>📚 MMLU-Pro:</strong> MMLU-Pro 是 MMLU 数据集的改进版本。它向模型提供十个选择而不是四个，要求在更多问题上进行推理，并经过专家审查以减少噪音量。它比原版质量更高且更难。</li>
+      </ul>
+      <div class="mt-4 text-sm text-gray-500">
+        <p>数据来源: <a href="https://huggingface.co/datasets/open-llm-leaderboard/contents" target="_blank" class="text-blue-500 hover:underline">https://huggingface.co/datasets/open-llm-leaderboard/contents</a></p>
+        <p>详细说明：<a href="https://blog.csdn.net/HuggingFace/article/details/140002475" target="_blank" class="text-blue-500 hover:underline">https://blog.csdn.net/HuggingFace/article/details/140002475</a></p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div>
+          <label for="root-select" class="block text-sm font-medium text-gray-700 mb-1">选择组织:</label>
+          <select id="root-select" onchange="updateSubSelect()" class="custom-select block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <option value="">请选择</option>
+          </select>
+        </div>
+        <div>
+          <label for="sub-select" class="block text-sm font-medium text-gray-700 mb-1">选择模型:</label>
+          <select id="sub-select" onchange="updateChart()" class="custom-select block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <option value="">请选择</option>
+          </select>
+        </div>
+        <div>
+          <label for="root-select2" class="block text-sm font-medium text-gray-700 mb-1">选择组织:</label>
+          <select id="root-select2" onchange="updateSubSelect2()" class="custom-select block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <option value="">请选择</option>
+          </select>
+        </div>
+        <div>
+          <label for="sub-select2" class="block text-sm font-medium text-gray-700 mb-1">选择模型:</label>
+          <select id="sub-select2" onchange="updateChart()" class="custom-select block w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <option value="">请选择</option>
+          </select>
+        </div>
+      </div>
+      <div id="container" class="w-full h-96 mb-8"></div>
+      <div id="barChart1" class="w-full h-64 mb-8"></div>
+      <div id="barChart2" class="w-full h-64"></div>
+    </div>
+
+    <div class="leaderboard">
+      <h2>模型排行榜</h2>
+      <select id="metricSelector" onchange="updateLeaderboard()">
+          <option value="IFEval">IFEval</option>
+          <option value="BBH">BBH</option>
+          <option value="MATH Lvl 5">MATH Lvl 5</option>
+          <option value="GPQA">GPQA</option>
+          <option value="MUSR">MUSR</option>
+          <option value="MMLU-PRO">MMLU-PRO</option>
+          <option value="Average ⬆️" selected>Average ⬆️</option>
+      </select>
+
+      <table>
+          <thead>
+              <tr>
+                  <th>排名</th>
+                  <th>模型名称</th>
+                  <th>分数</th>
+              </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+          </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var barChart1 = echarts.init(document.getElementById('barChart1'));
+    var barChart2 = echarts.init(document.getElementById('barChart2'));
+    var app = {};
+    
+    var option;
+
+    option = {
+      title: {
+        text: '模型性能对比雷达图'
+      },
+      legend: {
+        data: []
+      },
+      radar: {
+        indicator: [
+          { name: 'IFEval', max: 90 },
+          { name: 'BBH', max: 65 },
+          { name: 'MATH Lvl 5', max: 55 },
+          { name: 'GPQA', max: 25 },
+          { name: 'MUSR', max: 40 },
+          { name: 'MMLU-PRO', max: 75 }
+        ]
+      },
+      series: [
+        {
+          name: '模型对比',
+          type: 'radar',
+          data: []
+        }
+      ]
+    };
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', function() {
+      myChart.resize();
+      barChart1.resize();
+      barChart2.resize();
+    });
+
+    // Fetch JSON data
+    fetch('./source/content.json')
+      .then(response => response.json())
+      .then(data => {
+        populateRootSelect(data);
+        populateRootSelect2(data);
+        jsonData = data; // Store the data globally
+        updateLeaderboard(); // Initial leaderboard update
+      });
+
+    function populateRootSelect(data) {
+      const rootSelect = document.getElementById('root-select');
+      for (const root in data) {
+        const option = document.createElement('option');
+        option.value = root;
+        option.textContent = root;
+        rootSelect.appendChild(option);
+      }
+    }
+
+    function populateRootSelect2(data) {
+      const rootSelect2 = document.getElementById('root-select2');
+      for (const root in data) {
+        const option = document.createElement('option');
+        option.value = root;
+        option.textContent = root;
+        rootSelect2.appendChild(option);
+      }
+    }
+
+    function updateSubSelect() {
+      const rootSelect = document.getElementById('root-select');
+      const subSelect = document.getElementById('sub-select');
+      const root = rootSelect.value;
+      subSelect.innerHTML = '<option value="">请选择</option>';
+      if (root) {
+        fetch('./source/content.json')
+          .then(response => response.json())
+          .then(data => {
+            for (const sub in data[root]) {
+              const option = document.createElement('option');
+              option.value = sub;
+              option.textContent = sub;
+              subSelect.appendChild(option);
+            }
+          });
+      }
+    }
+
+    function updateSubSelect2() {
+      const rootSelect2 = document.getElementById('root-select2');
+      const subSelect2 = document.getElementById('sub-select2');
+      const root = rootSelect2.value;
+      subSelect2.innerHTML = '<option value="">请选择</option>';
+      if (root) {
+        fetch('./source/content.json')
+          .then(response => response.json())
+          .then(data => {
+            for (const sub in data[root]) {
+              const option = document.createElement('option');
+              option.value = sub;
+              option.textContent = sub;
+              subSelect2.appendChild(option);
+            }
+          });
+      }
+    }
+
+    function updateChart() {
+      const subSelect = document.getElementById('sub-select');
+      const subSelect2 = document.getElementById('sub-select2');
+      const sub = subSelect.value;
+      const sub2 = subSelect2.value;
+      if (sub && sub2) {
+        fetch('./source/content.json')
+          .then(response => response.json())
+          .then(data => {
+            const root = document.getElementById('root-select').value;
+            const root2 = document.getElementById('root-select2').value;
+            const item = data[root][sub];
+            const item2 = data[root2][sub2];
+            const newData = [
+              {
+                value: [
+                  item.IFEval,
+                  item.BBH,
+                  item['MATH Lvl 5'],
+                  item.GPQA,
+                  item.MUSR,
+                  item['MMLU-PRO']
+                ],
+                name: item.name
+              },
+              {
+                value: [
+                  item2.IFEval,
+                  item2.BBH,
+                  item2['MATH Lvl 5'],
+                  item2.GPQA,
+                  item2.MUSR,
+                  item2['MMLU-PRO']
+                ],
+                name: item2.name
+              }
+            ];
+            option.legend.data = [item.name, item2.name];
+            option.series[0].data = newData;
+            myChart.setOption(option);
+
+            // Update bar charts
+            updateBarChart(barChart1, item);
+            updateBarChart(barChart2, item2);
+          });
+      }
+    }
+
+    function updateBarChart(chart, data) {
+      const barOption = {
+        title: {
+          text: data.name + ' 性能指标'
+        },
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          }
+        },
+        xAxis: {
+          type: 'category',
+          data: ['IFEval', 'BBH', 'MATH Lvl 5', 'GPQA', 'MUSR', 'MMLU-PRO']
+        },
+        yAxis: {
+          type: 'value'
+        },
+        series: [{
+          data: [
+            {value: data.IFEval.toFixed(2), itemStyle: {color: '#ff9999'}},
+            {value: data.BBH.toFixed(2), itemStyle: {color: '#66b3ff'}},
+            {value: data['MATH Lvl 5'].toFixed(2), itemStyle: {color: '#99ff99'}},
+            {value: data.GPQA.toFixed(2), itemStyle: {color: '#ffcc99'}},
+            {value: data.MUSR.toFixed(2), itemStyle: {color: '#ff99cc'}},
+            {value: data['MMLU-PRO'].toFixed(2), itemStyle: {color: '#99ccff'}}
+          ],
+          type: 'bar',
+          label: {
+            show: true,
+            position: 'top',
+            formatter: '{c}'
+          }
+        }]
+      };
+      chart.setOption(barOption);
+    }
+
+    function updateLeaderboard() {
+      const metric = document.getElementById('metricSelector').value;
+      const models = [];
+      
+      // 从 JSON 中提取数据
+      for (const group in jsonData) {
+        for (const model in jsonData[group]) {
+          models.push({
+            name: model,
+            score: jsonData[group][model][metric]
+          });
+        }
+      }
+
+      // 排序并获取前10名
+      const topModels = models
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+
+      // 更新表格
+      const tbody = document.getElementById('leaderboardBody');
+      tbody.innerHTML = '';
+      
+      topModels.forEach((model, index) => {
+        const row = tbody.insertRow();
+        row.className = index % 2 === 0 ? 'bg-gray-50' : 'bg-white';
+        
+        const rankCell = row.insertCell(0);
+        rankCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-500';
+        rankCell.textContent = index + 1;
+        
+        const nameCell = row.insertCell(1);
+        nameCell.className = 'px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900';
+        nameCell.textContent = model.name;
+        
+        const scoreCell = row.insertCell(2);
+        scoreCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-500';
+        scoreCell.textContent = model.score.toFixed(2);
+      });
+    }
+  </script>
+</body>
+</html>
+

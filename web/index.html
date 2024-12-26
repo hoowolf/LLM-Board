@@ -157,18 +157,23 @@
                         window.open('./graph.html', '_blank');
                     });
                 </script>
-                <div class="grid-item">
+                <div class="grid-item" id="gridItemLink2">
                     <h2>
                         开源影响力
                     </h2>
+                    <script>
+                        document.getElementById('gridItemLink2').addEventListener('click', function() {
+                            window.open('./dashboard.html', '_blank');
+                        });
+                    </script>
                 </div>
-                <div class="grid-item" id="gridItemLink2">
+                <div class="grid-item" id="gridItemLink3">
                     <h2>
                         模型能力比较
                     </h2>
                 </div>
                 <script>
-                    document.getElementById('gridItemLink2').addEventListener('click', function() {
+                    document.getElementById('gridItemLink3').addEventListener('click', function() {
                         window.open('./radar.html', '_blank');
                     });
                 </script>

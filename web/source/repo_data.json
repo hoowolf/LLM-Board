@@ -1,0 +1,2120 @@
+{
+    "SkyworkAI/Skywork": {
+        "stargazers_count": 1231,
+        "forks_count": 110,
+        "issues_count": 14,
+        "contributors_count": 5
+    },
+    "SkyworkAI/Vitron": {
+        "stargazers_count": 417,
+        "forks_count": 24,
+        "issues_count": 13,
+        "contributors_count": 2
+    },
+    "SkyworkAI/DAQ-VS": {
+        "stargazers_count": 14,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "SkyworkAI/PointCloudMamba": {
+        "stargazers_count": 89,
+        "forks_count": 7,
+        "issues_count": 11,
+        "contributors_count": 2
+    },
+    "SkyworkAI/Skywork-MoE": {
+        "stargazers_count": 127,
+        "forks_count": 7,
+        "issues_count": 5,
+        "contributors_count": 4
+    },
+    "SkyworkAI/vllm": {
+        "stargazers_count": 15,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "SkyworkAI/Gamba": {
+        "stargazers_count": 102,
+        "forks_count": 4,
+        "issues_count": 4,
+        "contributors_count": 3
+    },
+    "SkyworkAI/LLMs-as-Instructors": {
+        "stargazers_count": 4,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "SkyworkAI/MVGamba": {
+        "stargazers_count": 50,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "SkyworkAI/Skywork-Reward": {
+        "stargazers_count": 9,
+        "forks_count": 1,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "SkyworkAI/MoE-plus-plus": {
+        "stargazers_count": 166,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "SkyworkAI/MoH": {
+        "stargazers_count": 195,
+        "forks_count": 7,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "SkyworkAI/agent-studio": {
+        "stargazers_count": 3,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 4
+    },
+    "SkyworkAI/skywork-o1-prm-inference": {
+        "stargazers_count": 40,
+        "forks_count": 3,
+        "issues_count": 6,
+        "contributors_count": 2
+    },
+    "QwenLM/Qwen": {
+        "stargazers_count": 14950,
+        "forks_count": 1207,
+        "issues_count": 20,
+        "contributors_count": 30
+    },
+    "QwenLM/Qwen-VL": {
+        "stargazers_count": 5238,
+        "forks_count": 396,
+        "issues_count": 292,
+        "contributors_count": 13
+    },
+    "QwenLM/Qwen-Agent": {
+        "stargazers_count": 4575,
+        "forks_count": 416,
+        "issues_count": 216,
+        "contributors_count": 17
+    },
+    "QwenLM/qwen.cpp": {
+        "stargazers_count": 566,
+        "forks_count": 49,
+        "issues_count": 69,
+        "contributors_count": 3
+    },
+    "QwenLM/Qwen-Audio": {
+        "stargazers_count": 1521,
+        "forks_count": 111,
+        "issues_count": 58,
+        "contributors_count": 5
+    },
+    "QwenLM/vllm-gptq": {
+        "stargazers_count": 127,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "QwenLM/qwenlm.github.io": {
+        "stargazers_count": 22,
+        "forks_count": 15,
+        "issues_count": 4,
+        "contributors_count": 8
+    },
+    "QwenLM/Qwen2.5": {
+        "stargazers_count": 11164,
+        "forks_count": 681,
+        "issues_count": 51,
+        "contributors_count": 30
+    },
+    "QwenLM/Qwen2.5-Coder": {
+        "stargazers_count": 3620,
+        "forks_count": 246,
+        "issues_count": 14,
+        "contributors_count": 23
+    },
+    "QwenLM/online_merging_optimizers": {
+        "stargazers_count": 67,
+        "forks_count": 7,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "QwenLM/ConsisEval": {
+        "stargazers_count": 8,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "QwenLM/AutoIF": {
+        "stargazers_count": 239,
+        "forks_count": 20,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "QwenLM/Qwen2-Audio": {
+        "stargazers_count": 1331,
+        "forks_count": 91,
+        "issues_count": 78,
+        "contributors_count": 4
+    },
+    "QwenLM/Qwen2.5-Math": {
+        "stargazers_count": 663,
+        "forks_count": 67,
+        "issues_count": 29,
+        "contributors_count": 6
+    },
+    "QwenLM/Qwen2-VL": {
+        "stargazers_count": 3791,
+        "forks_count": 233,
+        "issues_count": 315,
+        "contributors_count": 20
+    },
+    "QwenLM/Self-Lengthen": {
+        "stargazers_count": 73,
+        "forks_count": 5,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "QwenLM/Qwen-Cookbook": {
+        "stargazers_count": 10,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "QwenLM/ProcessBench": {
+        "stargazers_count": 94,
+        "forks_count": 2,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "InternLM/agentlego": {
+        "stargazers_count": 362,
+        "forks_count": 28,
+        "issues_count": 5,
+        "contributors_count": 9
+    },
+    "InternLM/InternLMWeb": {
+        "stargazers_count": 50,
+        "forks_count": 7,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "InternLM/InternLM-techreport": {
+        "stargazers_count": 901,
+        "forks_count": 25,
+        "issues_count": 6,
+        "contributors_count": 1
+    },
+    "InternLM/lmdeploy": {
+        "stargazers_count": 4911,
+        "forks_count": 445,
+        "issues_count": 355,
+        "contributors_count": 30
+    },
+    "InternLM/InternLM": {
+        "stargazers_count": 6590,
+        "forks_count": 463,
+        "issues_count": 5,
+        "contributors_count": 30
+    },
+    "InternLM/xtuner": {
+        "stargazers_count": 4102,
+        "forks_count": 323,
+        "issues_count": 232,
+        "contributors_count": 30
+    },
+    "InternLM/lagent": {
+        "stargazers_count": 1937,
+        "forks_count": 203,
+        "issues_count": 9,
+        "contributors_count": 30
+    },
+    "InternLM/InternLM-XComposer": {
+        "stargazers_count": 2672,
+        "forks_count": 159,
+        "issues_count": 129,
+        "contributors_count": 15
+    },
+    "InternLM/Tutorial": {
+        "stargazers_count": 1611,
+        "forks_count": 1463,
+        "issues_count": 824,
+        "contributors_count": 18
+    },
+    "InternLM/AcmeTrace": {
+        "stargazers_count": 132,
+        "forks_count": 7,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "InternLM/.github": {
+        "stargazers_count": 37,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "InternLM/HuixiangDou": {
+        "stargazers_count": 1562,
+        "forks_count": 130,
+        "issues_count": 24,
+        "contributors_count": 17
+    },
+    "InternLM/pytorch_sphinx_theme": {
+        "stargazers_count": 35,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "InternLM/OpenAOE": {
+        "stargazers_count": 258,
+        "forks_count": 23,
+        "issues_count": 5,
+        "contributors_count": 8
+    },
+    "InternLM/InternEvo_bak": {
+        "stargazers_count": 37,
+        "forks_count": 2,
+        "issues_count": 9,
+        "contributors_count": 30
+    },
+    "InternLM/InternEvo": {
+        "stargazers_count": 319,
+        "forks_count": 55,
+        "issues_count": 65,
+        "contributors_count": 30
+    },
+    "InternLM/InternLM-Math": {
+        "stargazers_count": 456,
+        "forks_count": 26,
+        "issues_count": 8,
+        "contributors_count": 5
+    },
+    "InternLM/AlchemistCoder": {
+        "stargazers_count": 32,
+        "forks_count": 3,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "InternLM/Agent-FLAN": {
+        "stargazers_count": 333,
+        "forks_count": 10,
+        "issues_count": 12,
+        "contributors_count": 2
+    },
+    "InternLM/InternLM-Law": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "InternLM/InternLM-WQX": {
+        "stargazers_count": 18,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 4
+    },
+    "InternLM/InternEvo-HFModels": {
+        "stargazers_count": 6,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 6
+    },
+    "InternLM/MindSearch": {
+        "stargazers_count": 5555,
+        "forks_count": 560,
+        "issues_count": 26,
+        "contributors_count": 18
+    },
+    "InternLM/Awesome-LLM-Training-System": {
+        "stargazers_count": 19,
+        "forks_count": 6,
+        "issues_count": 0,
+        "contributors_count": 7
+    },
+    "InternLM/turbomind": {
+        "stargazers_count": 40,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "InternLM/SWE-Fixer": {
+        "stargazers_count": 7,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/eTrust": {
+        "stargazers_count": 15,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/GraphSGAN": {
+        "stargazers_count": 86,
+        "forks_count": 18,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "THUDM/OAG": {
+        "stargazers_count": 59,
+        "forks_count": 16,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/CogDL": {
+        "stargazers_count": 1746,
+        "forks_count": 315,
+        "issues_count": 44,
+        "contributors_count": 30
+    },
+    "THUDM/KOBE": {
+        "stargazers_count": 238,
+        "forks_count": 69,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "THUDM/GATNE": {
+        "stargazers_count": 528,
+        "forks_count": 141,
+        "issues_count": 36,
+        "contributors_count": 2
+    },
+    "THUDM/Graph-Reading-Group": {
+        "stargazers_count": 44,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/KDD-Industrial-Papers": {
+        "stargazers_count": 28,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/CogQA": {
+        "stargazers_count": 455,
+        "forks_count": 82,
+        "issues_count": 13,
+        "contributors_count": 4
+    },
+    "THUDM/ScenarioMeta": {
+        "stargazers_count": 81,
+        "forks_count": 11,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "THUDM/ProNE": {
+        "stargazers_count": 226,
+        "forks_count": 42,
+        "issues_count": 7,
+        "contributors_count": 2
+    },
+    "THUDM/CogKR": {
+        "stargazers_count": 71,
+        "forks_count": 17,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "THUDM/KBRD": {
+        "stargazers_count": 134,
+        "forks_count": 32,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "THUDM/NLP4Rec-Papers": {
+        "stargazers_count": 227,
+        "forks_count": 50,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "THUDM/Tsinghua-ML-Course": {
+        "stargazers_count": 23,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/GRAND": {
+        "stargazers_count": 208,
+        "forks_count": 40,
+        "issues_count": 9,
+        "contributors_count": 2
+    },
+    "THUDM/MCNS": {
+        "stargazers_count": 112,
+        "forks_count": 33,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "THUDM/ComiRec": {
+        "stargazers_count": 283,
+        "forks_count": 76,
+        "issues_count": 17,
+        "contributors_count": 1
+    },
+    "THUDM/GCC": {
+        "stargazers_count": 324,
+        "forks_count": 55,
+        "issues_count": 11,
+        "contributors_count": 5
+    },
+    "THUDM/GIAAD": {
+        "stargazers_count": 21,
+        "forks_count": 4,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/Refined-cora-citeseer": {
+        "stargazers_count": 5,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/HGB": {
+        "stargazers_count": 312,
+        "forks_count": 49,
+        "issues_count": 38,
+        "contributors_count": 6
+    },
+    "THUDM/tdgia": {
+        "stargazers_count": 18,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/OAG-BERT": {
+        "stargazers_count": 77,
+        "forks_count": 5,
+        "issues_count": 5,
+        "contributors_count": 2
+    },
+    "THUDM/Chinese-Transformer-XL": {
+        "stargazers_count": 218,
+        "forks_count": 36,
+        "issues_count": 8,
+        "contributors_count": 1
+    },
+    "THUDM/grb": {
+        "stargazers_count": 91,
+        "forks_count": 17,
+        "issues_count": 7,
+        "contributors_count": 3
+    },
+    "THUDM/iPrompt": {
+        "stargazers_count": 123,
+        "forks_count": 20,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "THUDM/P-tuning": {
+        "stargazers_count": 927,
+        "forks_count": 111,
+        "issues_count": 16,
+        "contributors_count": 2
+    },
+    "THUDM/GLM": {
+        "stargazers_count": 3213,
+        "forks_count": 327,
+        "issues_count": 105,
+        "contributors_count": 11
+    },
+    "THUDM/ProteinLM": {
+        "stargazers_count": 113,
+        "forks_count": 21,
+        "issues_count": 2,
+        "contributors_count": 3
+    },
+    "THUDM/CogView": {
+        "stargazers_count": 1742,
+        "forks_count": 176,
+        "issues_count": 19,
+        "contributors_count": 5
+    },
+    "THUDM/SelfKG": {
+        "stargazers_count": 67,
+        "forks_count": 8,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "THUDM/MRT": {
+        "stargazers_count": 17,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/FewNLU": {
+        "stargazers_count": 66,
+        "forks_count": 6,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "THUDM/SwissArmyTransformer": {
+        "stargazers_count": 1032,
+        "forks_count": 97,
+        "issues_count": 43,
+        "contributors_count": 24
+    },
+    "THUDM/P-tuning-v2": {
+        "stargazers_count": 1992,
+        "forks_count": 202,
+        "issues_count": 35,
+        "contributors_count": 3
+    },
+    "THUDM/GLM-iprompt": {
+        "stargazers_count": 21,
+        "forks_count": 6,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "THUDM/SCR": {
+        "stargazers_count": 37,
+        "forks_count": 5,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "THUDM/icetk": {
+        "stargazers_count": 151,
+        "forks_count": 17,
+        "issues_count": 6,
+        "contributors_count": 4
+    },
+    "THUDM/GRAND-plus": {
+        "stargazers_count": 32,
+        "forks_count": 2,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/HOSMEL": {
+        "stargazers_count": 21,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/XDAI": {
+        "stargazers_count": 61,
+        "forks_count": 4,
+        "issues_count": 4,
+        "contributors_count": 2
+    },
+    "THUDM/RecNS": {
+        "stargazers_count": 2,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/STAM": {
+        "stargazers_count": 3,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/Reviewer-Rec": {
+        "stargazers_count": 1,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/OAG-entity-alignment": {
+        "stargazers_count": 7,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/CogView2": {
+        "stargazers_count": 954,
+        "forks_count": 78,
+        "issues_count": 25,
+        "contributors_count": 4
+    },
+    "THUDM/IGB": {
+        "stargazers_count": 10,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/GraphMAE": {
+        "stargazers_count": 483,
+        "forks_count": 76,
+        "issues_count": 11,
+        "contributors_count": 2
+    },
+    "THUDM/kgTransformer": {
+        "stargazers_count": 84,
+        "forks_count": 12,
+        "issues_count": 2,
+        "contributors_count": 3
+    },
+    "THUDM/CogVideo": {
+        "stargazers_count": 9886,
+        "forks_count": 936,
+        "issues_count": 74,
+        "contributors_count": 30
+    },
+    "THUDM/Paper-Rec": {
+        "stargazers_count": 3,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "THUDM/Multilingual-GLM": {
+        "stargazers_count": 62,
+        "forks_count": 8,
+        "issues_count": 4,
+        "contributors_count": 2
+    },
+    "THUDM/FasterTransformer": {
+        "stargazers_count": 39,
+        "forks_count": 13,
+        "issues_count": 0,
+        "contributors_count": 17
+    },
+    "THUDM/GLM-130B": {
+        "stargazers_count": 7679,
+        "forks_count": 608,
+        "issues_count": 123,
+        "contributors_count": 6
+    },
+    "THUDM/GraphCAD": {
+        "stargazers_count": 31,
+        "forks_count": 3,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "THUDM/scholar-profiling": {
+        "stargazers_count": 9,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "THUDM/CodeGeeX": {
+        "stargazers_count": 8318,
+        "forks_count": 610,
+        "issues_count": 165,
+        "contributors_count": 12
+    },
+    "THUDM/OAG-taxo": {
+        "stargazers_count": 5,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "THUDM/whoiswho-top-solutions": {
+        "stargazers_count": 14,
+        "forks_count": 13,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/oag-author-tagging": {
+        "stargazers_count": 2,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/Efficient-Head-Finetuning": {
+        "stargazers_count": 14,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/PAL": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/citation-prediction": {
+        "stargazers_count": 7,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/RecDCL": {
+        "stargazers_count": 23,
+        "forks_count": 4,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/DistAlign-GNNs": {
+        "stargazers_count": 2,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/FastLDM": {
+        "stargazers_count": 35,
+        "forks_count": 5,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "THUDM/ApeGNN": {
+        "stargazers_count": 26,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/paper-source-trace": {
+        "stargazers_count": 15,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "THUDM/tot-prediction": {
+        "stargazers_count": 2,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/ChatGLM-6B": {
+        "stargazers_count": 40888,
+        "forks_count": 5237,
+        "issues_count": 595,
+        "contributors_count": 30
+    },
+    "THUDM/ImageReward": {
+        "stargazers_count": 1225,
+        "forks_count": 65,
+        "issues_count": 49,
+        "contributors_count": 8
+    },
+    "THUDM/GraphMAE2": {
+        "stargazers_count": 143,
+        "forks_count": 15,
+        "issues_count": 5,
+        "contributors_count": 2
+    },
+    "THUDM/VisualGLM-6B": {
+        "stargazers_count": 4117,
+        "forks_count": 423,
+        "issues_count": 273,
+        "contributors_count": 8
+    },
+    "THUDM/BatchSampler": {
+        "stargazers_count": 18,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/WebGLM": {
+        "stargazers_count": 1578,
+        "forks_count": 136,
+        "issues_count": 52,
+        "contributors_count": 3
+    },
+    "THUDM/WhoIsWho": {
+        "stargazers_count": 37,
+        "forks_count": 12,
+        "issues_count": 5,
+        "contributors_count": 4
+    },
+    "THUDM/WinGNN": {
+        "stargazers_count": 7,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/DropConn": {
+        "stargazers_count": 4,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/ChatGLM2-6B": {
+        "stargazers_count": 15746,
+        "forks_count": 1857,
+        "issues_count": 449,
+        "contributors_count": 12
+    },
+    "THUDM/open_clip_pix2struct": {
+        "stargazers_count": 5,
+        "forks_count": 0,
+        "issues_count": 2,
+        "contributors_count": 30
+    },
+    "THUDM/CodeGeeX2": {
+        "stargazers_count": 7645,
+        "forks_count": 529,
+        "issues_count": 216,
+        "contributors_count": 7
+    },
+    "THUDM/AgentBench": {
+        "stargazers_count": 2283,
+        "forks_count": 169,
+        "issues_count": 51,
+        "contributors_count": 11
+    },
+    "THUDM/LongBench": {
+        "stargazers_count": 707,
+        "forks_count": 59,
+        "issues_count": 24,
+        "contributors_count": 5
+    },
+    "THUDM/RelayDiffusion": {
+        "stargazers_count": 277,
+        "forks_count": 19,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "THUDM/MathGLM": {
+        "stargazers_count": 320,
+        "forks_count": 25,
+        "issues_count": 10,
+        "contributors_count": 1
+    },
+    "THUDM/OAG-AQA": {
+        "stargazers_count": 6,
+        "forks_count": 5,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "THUDM/CogVLM": {
+        "stargazers_count": 6210,
+        "forks_count": 419,
+        "issues_count": 59,
+        "contributors_count": 18
+    },
+    "THUDM/AgentTuning": {
+        "stargazers_count": 1380,
+        "forks_count": 95,
+        "issues_count": 16,
+        "contributors_count": 8
+    },
+    "THUDM/ChatGLM3": {
+        "stargazers_count": 13569,
+        "forks_count": 1580,
+        "issues_count": 30,
+        "contributors_count": 30
+    },
+    "THUDM/AlignBench": {
+        "stargazers_count": 342,
+        "forks_count": 25,
+        "issues_count": 16,
+        "contributors_count": 3
+    },
+    "THUDM/CogAgent": {
+        "stargazers_count": 97,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "THUDM/SciGLM": {
+        "stargazers_count": 74,
+        "forks_count": 7,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/LongAlign": {
+        "stargazers_count": 231,
+        "forks_count": 15,
+        "issues_count": 7,
+        "contributors_count": 4
+    },
+    "THUDM/CogCoM": {
+        "stargazers_count": 154,
+        "forks_count": 10,
+        "issues_count": 18,
+        "contributors_count": 2
+    },
+    "THUDM/APAR": {
+        "stargazers_count": 8,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/AutoRE": {
+        "stargazers_count": 61,
+        "forks_count": 8,
+        "issues_count": 11,
+        "contributors_count": 1
+    },
+    "THUDM/Self-Contrast": {
+        "stargazers_count": 19,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/AutoWebGLM": {
+        "stargazers_count": 772,
+        "forks_count": 63,
+        "issues_count": 12,
+        "contributors_count": 2
+    },
+    "THUDM/ChatGLM-Math": {
+        "stargazers_count": 81,
+        "forks_count": 9,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "THUDM/NaturalCodeBench": {
+        "stargazers_count": 59,
+        "forks_count": 2,
+        "issues_count": 3,
+        "contributors_count": 2
+    },
+    "THUDM/Megatron-LM": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "THUDM/Inf-DiT": {
+        "stargazers_count": 387,
+        "forks_count": 19,
+        "issues_count": 21,
+        "contributors_count": 2
+    },
+    "THUDM/CogVLM2": {
+        "stargazers_count": 2178,
+        "forks_count": 148,
+        "issues_count": 55,
+        "contributors_count": 10
+    },
+    "THUDM/GLM-4": {
+        "stargazers_count": 5602,
+        "forks_count": 469,
+        "issues_count": 50,
+        "contributors_count": 24
+    },
+    "THUDM/LVBench": {
+        "stargazers_count": 68,
+        "forks_count": 1,
+        "issues_count": 5,
+        "contributors_count": 2
+    },
+    "THUDM/ReST-MCTS": {
+        "stargazers_count": 428,
+        "forks_count": 34,
+        "issues_count": 14,
+        "contributors_count": 2
+    },
+    "THUDM/MSAGPT": {
+        "stargazers_count": 25,
+        "forks_count": 2,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "THUDM/P2TAG": {
+        "stargazers_count": 10,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/OpenWebAgent": {
+        "stargazers_count": 15,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "THUDM/CodeGeeX4": {
+        "stargazers_count": 1651,
+        "forks_count": 131,
+        "issues_count": 50,
+        "contributors_count": 8
+    },
+    "THUDM/GraphAlign": {
+        "stargazers_count": 8,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "THUDM/VisualAgentBench": {
+        "stargazers_count": 146,
+        "forks_count": 4,
+        "issues_count": 11,
+        "contributors_count": 3
+    },
+    "THUDM/LongWriter": {
+        "stargazers_count": 1545,
+        "forks_count": 146,
+        "issues_count": 25,
+        "contributors_count": 4
+    },
+    "THUDM/Android-Lab": {
+        "stargazers_count": 176,
+        "forks_count": 8,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "THUDM/BattleAgentBench": {
+        "stargazers_count": 10,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/LongCite": {
+        "stargazers_count": 438,
+        "forks_count": 33,
+        "issues_count": 9,
+        "contributors_count": 4
+    },
+    "THUDM/MCAP": {
+        "stargazers_count": 4,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/CogView3": {
+        "stargazers_count": 271,
+        "forks_count": 18,
+        "issues_count": 11,
+        "contributors_count": 3
+    },
+    "THUDM/LongReward": {
+        "stargazers_count": 47,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "THUDM/GLM-4-Voice": {
+        "stargazers_count": 2494,
+        "forks_count": 199,
+        "issues_count": 94,
+        "contributors_count": 7
+    },
+    "THUDM/SceneGenAgent": {
+        "stargazers_count": 14,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/WebRL": {
+        "stargazers_count": 265,
+        "forks_count": 17,
+        "issues_count": 5,
+        "contributors_count": 2
+    },
+    "THUDM/GLM-Edge": {
+        "stargazers_count": 110,
+        "forks_count": 7,
+        "issues_count": 5,
+        "contributors_count": 4
+    },
+    "THUDM/BiPro": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/MathGLM-Vision": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "THUDM/VisScience": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenBMB/BMInf": {
+        "stargazers_count": 571,
+        "forks_count": 67,
+        "issues_count": 15,
+        "contributors_count": 8
+    },
+    "OpenBMB/BMInf-demos": {
+        "stargazers_count": 13,
+        "forks_count": 4,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "OpenBMB/BMTrain": {
+        "stargazers_count": 571,
+        "forks_count": 78,
+        "issues_count": 13,
+        "contributors_count": 11
+    },
+    "OpenBMB/cpm_kernels": {
+        "stargazers_count": 23,
+        "forks_count": 8,
+        "issues_count": 8,
+        "contributors_count": 2
+    },
+    "OpenBMB/General-Model-License": {
+        "stargazers_count": 6,
+        "forks_count": 2,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenBMB/ModelCenter": {
+        "stargazers_count": 243,
+        "forks_count": 30,
+        "issues_count": 12,
+        "contributors_count": 9
+    },
+    "OpenBMB/BMCook": {
+        "stargazers_count": 151,
+        "forks_count": 21,
+        "issues_count": 6,
+        "contributors_count": 5
+    },
+    "OpenBMB/CPM-Live": {
+        "stargazers_count": 511,
+        "forks_count": 40,
+        "issues_count": 7,
+        "contributors_count": 6
+    },
+    "OpenBMB/BMList": {
+        "stargazers_count": 341,
+        "forks_count": 14,
+        "issues_count": 1,
+        "contributors_count": 5
+    },
+    "OpenBMB/BMTools": {
+        "stargazers_count": 2910,
+        "forks_count": 274,
+        "issues_count": 12,
+        "contributors_count": 17
+    },
+    "OpenBMB/CPM-Bee": {
+        "stargazers_count": 2701,
+        "forks_count": 215,
+        "issues_count": 52,
+        "contributors_count": 10
+    },
+    "OpenBMB/DecT": {
+        "stargazers_count": 48,
+        "forks_count": 8,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenBMB/AgentVerse": {
+        "stargazers_count": 4317,
+        "forks_count": 420,
+        "issues_count": 27,
+        "contributors_count": 22
+    },
+    "OpenBMB/BMPrinciples": {
+        "stargazers_count": 275,
+        "forks_count": 19,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenBMB/ToolBench": {
+        "stargazers_count": 4902,
+        "forks_count": 430,
+        "issues_count": 121,
+        "contributors_count": 16
+    },
+    "OpenBMB/VisCPM": {
+        "stargazers_count": 1101,
+        "forks_count": 92,
+        "issues_count": 8,
+        "contributors_count": 5
+    },
+    "OpenBMB/UltraFeedback": {
+        "stargazers_count": 321,
+        "forks_count": 16,
+        "issues_count": 13,
+        "contributors_count": 3
+    },
+    "OpenBMB/ChatDev": {
+        "stargazers_count": 25996,
+        "forks_count": 3255,
+        "issues_count": 42,
+        "contributors_count": 30
+    },
+    "OpenBMB/XAgent": {
+        "stargazers_count": 8245,
+        "forks_count": 849,
+        "issues_count": 51,
+        "contributors_count": 30
+    },
+    "OpenBMB/XAgent-doc": {
+        "stargazers_count": 19,
+        "forks_count": 8,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "OpenBMB/ProAgent": {
+        "stargazers_count": 798,
+        "forks_count": 88,
+        "issues_count": 12,
+        "contributors_count": 5
+    },
+    "OpenBMB/UltraEval": {
+        "stargazers_count": 228,
+        "forks_count": 20,
+        "issues_count": 4,
+        "contributors_count": 3
+    },
+    "OpenBMB/InfiniteBench": {
+        "stargazers_count": 297,
+        "forks_count": 25,
+        "issues_count": 7,
+        "contributors_count": 5
+    },
+    "OpenBMB/RepoAgent": {
+        "stargazers_count": 428,
+        "forks_count": 74,
+        "issues_count": 6,
+        "contributors_count": 9
+    },
+    "OpenBMB/LLMFarm-MiniCPM": {
+        "stargazers_count": 62,
+        "forks_count": 3,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "OpenBMB/llama.cpp": {
+        "stargazers_count": 71,
+        "forks_count": 12,
+        "issues_count": 2,
+        "contributors_count": 30
+    },
+    "OpenBMB/MiniCPM-V": {
+        "stargazers_count": 12921,
+        "forks_count": 905,
+        "issues_count": 116,
+        "contributors_count": 22
+    },
+    "OpenBMB/MiniCPM": {
+        "stargazers_count": 7234,
+        "forks_count": 462,
+        "issues_count": 43,
+        "contributors_count": 25
+    },
+    "OpenBMB/mlc-MiniCPM": {
+        "stargazers_count": 571,
+        "forks_count": 44,
+        "issues_count": 2,
+        "contributors_count": 30
+    },
+    "OpenBMB/Tell_Me_More": {
+        "stargazers_count": 48,
+        "forks_count": 4,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenBMB/UltraLink": {
+        "stargazers_count": 22,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "OpenBMB/OlympiadBench": {
+        "stargazers_count": 103,
+        "forks_count": 8,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "OpenBMB/CPO": {
+        "stargazers_count": 17,
+        "forks_count": 1,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "OpenBMB/Eurus": {
+        "stargazers_count": 292,
+        "forks_count": 14,
+        "issues_count": 8,
+        "contributors_count": 6
+    },
+    "OpenBMB/vllm": {
+        "stargazers_count": 11,
+        "forks_count": 5,
+        "issues_count": 11,
+        "contributors_count": 30
+    },
+    "OpenBMB/ollama": {
+        "stargazers_count": 25,
+        "forks_count": 11,
+        "issues_count": 4,
+        "contributors_count": 30
+    },
+    "OpenBMB/MobileCPM": {
+        "stargazers_count": 58,
+        "forks_count": 2,
+        "issues_count": 6,
+        "contributors_count": 0
+    },
+    "OpenBMB/IoA": {
+        "stargazers_count": 609,
+        "forks_count": 55,
+        "issues_count": 7,
+        "contributors_count": 4
+    },
+    "OpenBMB/HerculesBench": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "OpenBMB/RAGEval": {
+        "stargazers_count": 102,
+        "forks_count": 8,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "OpenBMB/MiniCPM-CookBook": {
+        "stargazers_count": 149,
+        "forks_count": 9,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenBMB/VisRAG": {
+        "stargazers_count": 509,
+        "forks_count": 36,
+        "issues_count": 2,
+        "contributors_count": 3
+    },
+    "OpenBMB/RAG-DDR": {
+        "stargazers_count": 12,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenBMB/Locret": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenBMB/WorkflowLLM": {
+        "stargazers_count": 70,
+        "forks_count": 11,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenBMB/DecorateLM": {
+        "stargazers_count": 6,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "01-ai/unstructured-api": {
+        "stargazers_count": 6,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "01-ai/.github": {
+        "stargazers_count": 2,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "01-ai/Yi": {
+        "stargazers_count": 7755,
+        "forks_count": 486,
+        "issues_count": 19,
+        "contributors_count": 30
+    },
+    "01-ai/LLaVA": {
+        "stargazers_count": 7,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "01-ai/HumanEval.jl": {
+        "stargazers_count": 21,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "01-ai/Descartes": {
+        "stargazers_count": 102,
+        "forks_count": 11,
+        "issues_count": 1,
+        "contributors_count": 6
+    },
+    "01-ai/Yi-1.5": {
+        "stargazers_count": 536,
+        "forks_count": 32,
+        "issues_count": 9,
+        "contributors_count": 6
+    },
+    "01-ai/Yi-Coder": {
+        "stargazers_count": 372,
+        "forks_count": 26,
+        "issues_count": 7,
+        "contributors_count": 4
+    },
+    "01-ai/YiDong": {
+        "stargazers_count": 4,
+        "forks_count": 1,
+        "issues_count": 8,
+        "contributors_count": 5
+    },
+    "OpenMoss/CoLLiE": {
+        "stargazers_count": 411,
+        "forks_count": 58,
+        "issues_count": 24,
+        "contributors_count": 16
+    },
+    "OpenMoss/MOSS": {
+        "stargazers_count": 12001,
+        "forks_count": 1150,
+        "issues_count": 242,
+        "contributors_count": 16
+    },
+    "OpenMoss/HalluQA": {
+        "stargazers_count": 111,
+        "forks_count": 4,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenMoss/Say-I-Dont-Know": {
+        "stargazers_count": 76,
+        "forks_count": 7,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "OpenMoss/AnyGPT": {
+        "stargazers_count": 802,
+        "forks_count": 64,
+        "issues_count": 17,
+        "contributors_count": 3
+    },
+    "OpenMoss/GAOKAO-MM": {
+        "stargazers_count": 38,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenMoss/Language-Model-SAEs": {
+        "stargazers_count": 72,
+        "forks_count": 8,
+        "issues_count": 4,
+        "contributors_count": 7
+    },
+    "OpenMoss/TransformerLens": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "FlagAI-Open/FlagAI": {
+        "stargazers_count": 3845,
+        "forks_count": 416,
+        "issues_count": 18,
+        "contributors_count": 30
+    },
+    "FlagAI-Open/artwork": {
+        "stargazers_count": 1,
+        "forks_count": 9,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "FlagAI-Open/Aquila2": {
+        "stargazers_count": 440,
+        "forks_count": 30,
+        "issues_count": 2,
+        "contributors_count": 8
+    },
+    "FlagAI-Open/Aquila-MoE": {
+        "stargazers_count": 6,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "FlagAI-Open/industry-application": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "FlagAI-Open/.github": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "baichuan-inc/Baichuan-7B": {
+        "stargazers_count": 5679,
+        "forks_count": 506,
+        "issues_count": 90,
+        "contributors_count": 7
+    },
+    "baichuan-inc/Baichuan-13B": {
+        "stargazers_count": 2976,
+        "forks_count": 236,
+        "issues_count": 96,
+        "contributors_count": 5
+    },
+    "baichuan-inc/Baichuan2": {
+        "stargazers_count": 4116,
+        "forks_count": 297,
+        "issues_count": 272,
+        "contributors_count": 9
+    },
+    "IDEA-CCNL/Fengshenbang-LM": {
+        "stargazers_count": 4056,
+        "forks_count": 380,
+        "issues_count": 101,
+        "contributors_count": 18
+    },
+    "IDEA-CCNL/fs_datasets": {
+        "stargazers_count": 11,
+        "forks_count": 1,
+        "issues_count": 2,
+        "contributors_count": 4
+    },
+    "IDEA-CCNL/Fengshenbang-doc": {
+        "stargazers_count": 16,
+        "forks_count": 9,
+        "issues_count": 3,
+        "contributors_count": 10
+    },
+    "IDEA-CCNL/Fengshenbang-doc-1": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 6
+    },
+    "IDEA-CCNL/GTS-Engine-Doc": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 6
+    },
+    "IDEA-CCNL/GTS-Engine": {
+        "stargazers_count": 91,
+        "forks_count": 9,
+        "issues_count": 5,
+        "contributors_count": 11
+    },
+    "IDEA-CCNL/GTS-Engine-Client": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 4
+    },
+    "IDEA-CCNL/stable-diffusion-webui": {
+        "stargazers_count": 110,
+        "forks_count": 27,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "IDEA-CCNL/stable-diffusion-webui-taiyi-scripts": {
+        "stargazers_count": 4,
+        "forks_count": 1,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "IDEA-CCNL/cc_net": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "IDEA-CCNL/Ziya-Coding": {
+        "stargazers_count": 15,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "IDEA-CCNL/Real-Gemini": {
+        "stargazers_count": 22,
+        "forks_count": 2,
+        "issues_count": 1,
+        "contributors_count": 7
+    },
+    "IDEA-CCNL/Fooocus-Taiyi-XL": {
+        "stargazers_count": 19,
+        "forks_count": 2,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "IDEA-CCNL/Taiyi-Diffusion-XL": {
+        "stargazers_count": 21,
+        "forks_count": 4,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "XVERSE-ai/XVERSE-13B": {
+        "stargazers_count": 648,
+        "forks_count": 59,
+        "issues_count": 2,
+        "contributors_count": 8
+    },
+    "XVERSE-ai/XVERSE-7B": {
+        "stargazers_count": 50,
+        "forks_count": 7,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "XVERSE-ai/XVERSE-65B": {
+        "stargazers_count": 132,
+        "forks_count": 15,
+        "issues_count": 3,
+        "contributors_count": 4
+    },
+    "XVERSE-ai/XVERSE-MoE-A4.2B": {
+        "stargazers_count": 36,
+        "forks_count": 6,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "XVERSE-ai/XVERSE-V-13B": {
+        "stargazers_count": 78,
+        "forks_count": 4,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "XVERSE-ai/XVERSE-MoE-A36B": {
+        "stargazers_count": 37,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "infinigence/LVEval": {
+        "stargazers_count": 53,
+        "forks_count": 7,
+        "issues_count": 6,
+        "contributors_count": 2
+    },
+    "infinigence/InfiniWebSearch": {
+        "stargazers_count": 27,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 0
+    },
+    "infinigence/Infini-Megrez": {
+        "stargazers_count": 289,
+        "forks_count": 18,
+        "issues_count": 2,
+        "contributors_count": 3
+    },
+    "infinigence/Infini-Megrez-Omni": {
+        "stargazers_count": 155,
+        "forks_count": 7,
+        "issues_count": 7,
+        "contributors_count": 2
+    },
+    "infinigence/ComfyUI-Manager": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "OpenGVLab/opengvlab.github.io": {
+        "stargazers_count": 15,
+        "forks_count": 3,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/gv-benchmark": {
+        "stargazers_count": 189,
+        "forks_count": 12,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "OpenGVLab/efficient-video-recognition": {
+        "stargazers_count": 169,
+        "forks_count": 15,
+        "issues_count": 19,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Official-ConvMAE-Det": {
+        "stargazers_count": 16,
+        "forks_count": 3,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/InternImage": {
+        "stargazers_count": 2559,
+        "forks_count": 238,
+        "issues_count": 192,
+        "contributors_count": 13
+    },
+    "OpenGVLab/STM-Evaluation": {
+        "stargazers_count": 70,
+        "forks_count": 6,
+        "issues_count": 1,
+        "contributors_count": 3
+    },
+    "OpenGVLab/EgoVideo": {
+        "stargazers_count": 109,
+        "forks_count": 3,
+        "issues_count": 7,
+        "contributors_count": 6
+    },
+    "OpenGVLab/UniFormerV2": {
+        "stargazers_count": 295,
+        "forks_count": 19,
+        "issues_count": 14,
+        "contributors_count": 1
+    },
+    "OpenGVLab/M3I-Pretraining": {
+        "stargazers_count": 90,
+        "forks_count": 5,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/InternVideo": {
+        "stargazers_count": 1484,
+        "forks_count": 91,
+        "issues_count": 97,
+        "contributors_count": 19
+    },
+    "OpenGVLab/.github": {
+        "stargazers_count": 0,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 4
+    },
+    "OpenGVLab/CaFo": {
+        "stargazers_count": 357,
+        "forks_count": 19,
+        "issues_count": 11,
+        "contributors_count": 2
+    },
+    "OpenGVLab/HumanBench": {
+        "stargazers_count": 237,
+        "forks_count": 11,
+        "issues_count": 17,
+        "contributors_count": 4
+    },
+    "OpenGVLab/UniHCP": {
+        "stargazers_count": 153,
+        "forks_count": 9,
+        "issues_count": 11,
+        "contributors_count": 2
+    },
+    "OpenGVLab/LLaMA-Adapter": {
+        "stargazers_count": 5784,
+        "forks_count": 377,
+        "issues_count": 109,
+        "contributors_count": 12
+    },
+    "OpenGVLab/unmasked_teacher": {
+        "stargazers_count": 306,
+        "forks_count": 17,
+        "issues_count": 13,
+        "contributors_count": 3
+    },
+    "OpenGVLab/VideoMAEv2": {
+        "stargazers_count": 549,
+        "forks_count": 64,
+        "issues_count": 13,
+        "contributors_count": 3
+    },
+    "OpenGVLab/Ask-Anything": {
+        "stargazers_count": 3122,
+        "forks_count": 253,
+        "issues_count": 69,
+        "contributors_count": 11
+    },
+    "OpenGVLab/LORIS": {
+        "stargazers_count": 55,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/InternGPT": {
+        "stargazers_count": 3213,
+        "forks_count": 232,
+        "issues_count": 19,
+        "contributors_count": 12
+    },
+    "OpenGVLab/Multi-Modality-Arena": {
+        "stargazers_count": 479,
+        "forks_count": 36,
+        "issues_count": 24,
+        "contributors_count": 7
+    },
+    "OpenGVLab/Instruct2Act": {
+        "stargazers_count": 341,
+        "forks_count": 20,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/VisionLLM": {
+        "stargazers_count": 960,
+        "forks_count": 29,
+        "issues_count": 14,
+        "contributors_count": 2
+    },
+    "OpenGVLab/GITM": {
+        "stargazers_count": 603,
+        "forks_count": 20,
+        "issues_count": 11,
+        "contributors_count": 1
+    },
+    "OpenGVLab/DragGAN": {
+        "stargazers_count": 4998,
+        "forks_count": 491,
+        "issues_count": 64,
+        "contributors_count": 11
+    },
+    "OpenGVLab/MUTR": {
+        "stargazers_count": 70,
+        "forks_count": 5,
+        "issues_count": 2,
+        "contributors_count": 2
+    },
+    "OpenGVLab/EmbodiedGPT": {
+        "stargazers_count": 33,
+        "forks_count": 2,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/DiffRate": {
+        "stargazers_count": 90,
+        "forks_count": 8,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/DDPS": {
+        "stargazers_count": 65,
+        "forks_count": 3,
+        "issues_count": 9,
+        "contributors_count": 1
+    },
+    "OpenGVLab/LAMM": {
+        "stargazers_count": 304,
+        "forks_count": 17,
+        "issues_count": 9,
+        "contributors_count": 11
+    },
+    "OpenGVLab/MovieMind": {
+        "stargazers_count": 12,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Awesome-DragGAN": {
+        "stargazers_count": 83,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Awesome-LLM4Tool": {
+        "stargazers_count": 67,
+        "forks_count": 7,
+        "issues_count": 0,
+        "contributors_count": 3
+    },
+    "OpenGVLab/InternLMM": {
+        "stargazers_count": 17,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Siamese-Image-Modeling": {
+        "stargazers_count": 35,
+        "forks_count": 6,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "OpenGVLab/all-seeing": {
+        "stargazers_count": 469,
+        "forks_count": 17,
+        "issues_count": 12,
+        "contributors_count": 4
+    },
+    "OpenGVLab/Multitask-Model-Selector": {
+        "stargazers_count": 35,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/OmniQuant": {
+        "stargazers_count": 742,
+        "forks_count": 56,
+        "issues_count": 24,
+        "contributors_count": 11
+    },
+    "OpenGVLab/SAM-Med2D": {
+        "stargazers_count": 906,
+        "forks_count": 86,
+        "issues_count": 43,
+        "contributors_count": 5
+    },
+    "OpenGVLab/perception_test_iccv2023": {
+        "stargazers_count": 13,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/PonderV2": {
+        "stargazers_count": 328,
+        "forks_count": 6,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "OpenGVLab/ControlLLM": {
+        "stargazers_count": 188,
+        "forks_count": 8,
+        "issues_count": 6,
+        "contributors_count": 4
+    },
+    "OpenGVLab/InternVL": {
+        "stargazers_count": 6528,
+        "forks_count": 508,
+        "issues_count": 120,
+        "contributors_count": 15
+    },
+    "OpenGVLab/DriveMLM": {
+        "stargazers_count": 160,
+        "forks_count": 3,
+        "issues_count": 5,
+        "contributors_count": 2
+    },
+    "OpenGVLab/DCNv4": {
+        "stargazers_count": 543,
+        "forks_count": 29,
+        "issues_count": 73,
+        "contributors_count": 4
+    },
+    "OpenGVLab/ChartAst": {
+        "stargazers_count": 109,
+        "forks_count": 8,
+        "issues_count": 6,
+        "contributors_count": 1
+    },
+    "OpenGVLab/LLMPrune-BESA": {
+        "stargazers_count": 14,
+        "forks_count": 1,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/InternVL-MMDetSeg": {
+        "stargazers_count": 71,
+        "forks_count": 6,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/MM-Interleaved": {
+        "stargazers_count": 206,
+        "forks_count": 11,
+        "issues_count": 6,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Vision-RWKV": {
+        "stargazers_count": 388,
+        "forks_count": 16,
+        "issues_count": 19,
+        "contributors_count": 3
+    },
+    "OpenGVLab/Hulk": {
+        "stargazers_count": 111,
+        "forks_count": 4,
+        "issues_count": 13,
+        "contributors_count": 1
+    },
+    "OpenGVLab/video-mamba-suite": {
+        "stargazers_count": 249,
+        "forks_count": 26,
+        "issues_count": 15,
+        "contributors_count": 1
+    },
+    "OpenGVLab/VideoMamba": {
+        "stargazers_count": 869,
+        "forks_count": 62,
+        "issues_count": 43,
+        "contributors_count": 2
+    },
+    "OpenGVLab/DiffAgent": {
+        "stargazers_count": 16,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/EgoExoLearn": {
+        "stargazers_count": 48,
+        "forks_count": 0,
+        "issues_count": 2,
+        "contributors_count": 1
+    },
+    "OpenGVLab/InternVideo2": {
+        "stargazers_count": 213,
+        "forks_count": 2,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "OpenGVLab/MMT-Bench": {
+        "stargazers_count": 95,
+        "forks_count": 3,
+        "issues_count": 6,
+        "contributors_count": 3
+    },
+    "OpenGVLab/PIIP": {
+        "stargazers_count": 64,
+        "forks_count": 2,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "OpenGVLab/MM-NIAH": {
+        "stargazers_count": 107,
+        "forks_count": 6,
+        "issues_count": 1,
+        "contributors_count": 2
+    },
+    "OpenGVLab/GUI-Odyssey": {
+        "stargazers_count": 76,
+        "forks_count": 4,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/De-focus-Attention-Networks": {
+        "stargazers_count": 32,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/LCL": {
+        "stargazers_count": 68,
+        "forks_count": 3,
+        "issues_count": 4,
+        "contributors_count": 1
+    },
+    "OpenGVLab/OmniCorpus": {
+        "stargazers_count": 289,
+        "forks_count": 7,
+        "issues_count": 0,
+        "contributors_count": 2
+    },
+    "OpenGVLab/EfficientQAT": {
+        "stargazers_count": 234,
+        "forks_count": 18,
+        "issues_count": 5,
+        "contributors_count": 1
+    },
+    "OpenGVLab/Diffree": {
+        "stargazers_count": 233,
+        "forks_count": 13,
+        "issues_count": 3,
+        "contributors_count": 2
+    },
+    "OpenGVLab/MMIU": {
+        "stargazers_count": 57,
+        "forks_count": 2,
+        "issues_count": 3,
+        "contributors_count": 1
+    },
+    "OpenGVLab/PhyGenBench": {
+        "stargazers_count": 78,
+        "forks_count": 1,
+        "issues_count": 3,
+        "contributors_count": 2
+    },
+    "OpenGVLab/OV-OAD": {
+        "stargazers_count": 1,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 1
+    },
+    "OpenGVLab/VLMEvalKit_InternVL2_5": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "issues_count": 0,
+        "contributors_count": 30
+    },
+    "OpenGVLab/PVC": {
+        "stargazers_count": 12,
+        "forks_count": 0,
+        "issues_count": 1,
+        "contributors_count": 1
+    },
+    "OpenGVLab/V2PE": {
+        "stargazers_count": 10,
+        "forks_count": 1,
+        "issues_count": 0,
+        "contributors_count": 1
+    }
+}

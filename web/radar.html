@@ -14,6 +14,33 @@
       background-size: 1.5em 1.5em;
       padding-right: 2.5rem;
     }
+    .leaderboard {
+      margin: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .leaderboard select {
+      margin-bottom: 15px;
+      padding: 5px;
+    }
+
+    .leaderboard table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .leaderboard th,
+    .leaderboard td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .leaderboard th {
+      background-color: #f5f5f5;
+    }
   </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col">
@@ -68,6 +95,31 @@
       <div id="barChart1" class="w-full h-64 mb-8"></div>
       <div id="barChart2" class="w-full h-64"></div>
     </div>
+
+    <div class="leaderboard">
+      <h2>模型排行榜</h2>
+      <select id="metricSelector" onchange="updateLeaderboard()">
+          <option value="IFEval">IFEval</option>
+          <option value="BBH">BBH</option>
+          <option value="MATH Lvl 5">MATH Lvl 5</option>
+          <option value="GPQA">GPQA</option>
+          <option value="MUSR">MUSR</option>
+          <option value="MMLU-PRO">MMLU-PRO</option>
+          <option value="Average ⬆️" selected>Average ⬆️</option>
+      </select>
+
+      <table>
+          <thead>
+              <tr>
+                  <th>排名</th>
+                  <th>模型名称</th>
+                  <th>分数</th>
+              </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+          </tbody>
+      </table>
+    </div>
   </div>
 
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
@@ -92,12 +144,12 @@
       },
       radar: {
         indicator: [
-          { name: 'IFEval', max: 100 },
-          { name: 'BBH', max: 100 },
-          { name: 'MATH Lvl 5', max: 100 },
-          { name: 'GPQA', max: 100 },
-          { name: 'MUSR', max: 100 },
-          { name: 'MMLU-PRO', max: 100 }
+          { name: 'IFEval', max: 90 },
+          { name: 'BBH', max: 65 },
+          { name: 'MATH Lvl 5', max: 55 },
+          { name: 'GPQA', max: 25 },
+          { name: 'MUSR', max: 40 },
+          { name: 'MMLU-PRO', max: 75 }
         ]
       },
       series: [
@@ -125,6 +177,8 @@
       .then(data => {
         populateRootSelect(data);
         populateRootSelect2(data);
+        jsonData = data; // Store the data globally
+        updateLeaderboard(); // Initial leaderboard update
       });
 
     function populateRootSelect(data) {
@@ -270,6 +324,48 @@
       };
       chart.setOption(barOption);
     }
+
+    function updateLeaderboard() {
+      const metric = document.getElementById('metricSelector').value;
+      const models = [];
+      
+      // 从 JSON 中提取数据
+      for (const group in jsonData) {
+        for (const model in jsonData[group]) {
+          models.push({
+            name: model,
+            score: jsonData[group][model][metric]
+          });
+        }
+      }
+
+      // 排序并获取前10名
+      const topModels = models
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+
+      // 更新表格
+      const tbody = document.getElementById('leaderboardBody');
+      tbody.innerHTML = '';
+      
+      topModels.forEach((model, index) => {
+        const row = tbody.insertRow();
+        row.className = index % 2 === 0 ? 'bg-gray-50' : 'bg-white';
+        
+        const rankCell = row.insertCell(0);
+        rankCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-500';
+        rankCell.textContent = index + 1;
+        
+        const nameCell = row.insertCell(1);
+        nameCell.className = 'px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900';
+        nameCell.textContent = model.name;
+        
+        const scoreCell = row.insertCell(2);
+        scoreCell.className = 'px-6 py-4 whitespace-nowrap text-sm text-gray-500';
+        scoreCell.textContent = model.score.toFixed(2);
+      });
+    }
   </script>
 </body>
 </html>
+

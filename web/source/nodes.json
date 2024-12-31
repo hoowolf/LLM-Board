@@ -442,7 +442,7 @@
             "text": "书生大模型体系是由上海人工智能实验室（上海AI实验室）主导开发的一系列先进的人工智能模型，旨在推动通用人工智能（AGI）的发展。该体系不仅包括了语言、视觉等多个领域的模型，而且特别强调全链条开源体系的建设，为开发者提供了从数据集准备到模型训练、微调、部署和应用的完整解决方案。",
             "url": "https://intern-ai.org.cn/home",
             "github": "https://github.com/InternLM",
-            "huf": "https://github.com/InternLM"
+            "huf": "https://huggingface.co/internlm"
         },
         {
             "id": "1301",

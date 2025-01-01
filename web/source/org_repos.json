@@ -13,7 +13,8 @@
         "MoE-plus-plus",
         "MoH",
         "agent-studio",
-        "skywork-o1-prm-inference"
+        "skywork-o1-prm-inference",
+        "SuperCorrect-llm"
     ],
     "QwenLM": [
         "Qwen",
@@ -57,7 +58,6 @@
         "Agent-FLAN",
         "InternLM-Law",
         "InternLM-WQX",
-        "InternEvo-HFModels",
         "MindSearch",
         "Awesome-LLM-Training-System",
         "turbomind",
@@ -190,7 +190,8 @@
         "GLM-Edge",
         "BiPro",
         "MathGLM-Vision",
-        "VisScience"
+        "VisScience",
+        "VisionReward"
     ],
     "OpenBMB": [
         "BMInf",
@@ -259,7 +260,8 @@
         "AnyGPT",
         "GAOKAO-MM",
         "Language-Model-SAEs",
-        "TransformerLens"
+        "TransformerLens",
+        "VLABench"
     ],
     "FlagAI-Open": [
         "FlagAI",
@@ -374,8 +376,27 @@
         "MMIU",
         "PhyGenBench",
         "OV-OAD",
+        "vinci",
         "VLMEvalKit_InternVL2_5",
         "PVC",
-        "V2PE"
+        "V2PE",
+        "TPO"
+    ],
+    "deepseek-ai": [
+        "DeepSeek-Coder",
+        "DreamCraft3D",
+        "awesome-deepseek-coder",
+        "DeepSeek-LLM",
+        "DeepSeek-MoE",
+        "awesome-deepseek-integration",
+        "DeepSeek-Math",
+        "DeepSeek-VL",
+        "DeepSeek-V2",
+        "DeepSeek-Coder-V2",
+        "ESFT",
+        "DeepSeek-Prover-V1.5",
+        "Janus",
+        "DeepSeek-VL2",
+        "DeepSeek-V3"
     ]
 }

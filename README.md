@@ -3,13 +3,13 @@ openrank-cup
 
 ![ref1]
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.002.png)**中国开源大模型全景图**
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.002.png)**中国开源大模型全景图**
 
 
 超级大香蕉
 
 
-![ref2]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.004.png)
+![ref2]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.004.png)
 # **网站部署**
 网站链接：[https://www.open-cn-llm-](https://www.open-cn-llm-board.xin/) [board.xin/](https://www.open-cn-llm-board.xin/)
 
@@ -19,12 +19,12 @@ openrank-cup
 
 上传github后，可以与[vercel](https://vercel.com/)（一个免费的网页部署网站）建立联系，并部署
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.006.jpeg)
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.006.jpeg)
 
 在阿里云购买域名后，即可使用自己的域名进行访问
 
 
-![ref2]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.007.png)
+![ref2]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.007.png)
 # **数据准备**
 
 ![ref3]1，仓库名获取
@@ -61,24 +61,24 @@ stars:每月star的增加量
 
 huggingface上有关与大模型评分的数据集open-llm-leaderboard/contents
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.008.jpeg)
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.008.jpeg)
 
 可以用官方给的URL使用pandas进行调用，获得的数据处理为需要的格式
 
 通过（function/llm\_content.py）存入（web/source/content.json）
 
-![ref3]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.009.jpeg)格式为
+![ref3]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.009.jpeg)格式为
 
 
 
 root和name方便进行特定查找
 
 
-![ref2]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.010.png)
+![ref2]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.010.png)
 # **网站搭建及演示**
 网站链接：[https://www.open-cn-llm-](https://www.open-cn-llm-board.xin/) [board.xin/](https://www.open-cn-llm-board.xin/)
 
-![ref3]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.011.jpeg)1，主页面(web/index.html)
+![ref3]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.011.jpeg)1，主页面(web/index.html)
 
 
 
@@ -94,7 +94,7 @@ root和name方便进行特定查找
 
 ![ref3]2，全景图(web/graph.html)
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.012.jpeg)
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.012.jpeg)
 
 
 
@@ -108,13 +108,13 @@ root和name方便进行特定查找
 
 ![ref3]3，开源影响力(web/dashboard.html)
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.013.jpeg)
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.013.jpeg)
 
 上方使用grid布局，使格式整齐。 通过前面获取的仓库名数据，实现一个下拉列表，选择github仓库后，上方的四个小窗和下方的折线图会动态更新，这里我选了大部分有数据的最近六个月，到2024-11为止，由日期标签，可以由opendigger根链接得到新增star，以及六个月的 openrank,activity值，对无效的网页或者没有数据，归为0处理，避免出现显示错误
 
 ![ref3]4，模型能力比较(web/radar.html)
 
-![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.014.jpeg)
+![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.014.jpeg)
 
 页面上方是基本的指标说明和一
 
@@ -124,14 +124,14 @@ root和name方便进行特定查找
 
 除了雷达图，还会在下方显示出各项指标的柱状图，更直观的研究单个模型的能力
 
-![ref3]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.015.jpeg)4，模型能力比较(web/radar.html)
+![ref3]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.015.jpeg)4，模型能力比较(web/radar.html)
 
 
 
 除了比较两个模型，还在下方增设了排行榜，对每个指标进行排序，了解不同领域模型的差距
 
 
-![ref2]![](Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.016.png)
+![ref2]![](md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.016.png)
 # **结语**
 
 ![ref3]在全球人工智能技术的竞争中，开源大模型不仅能够提升国内技术的国际影响力，还能帮助中国企业和研究机构在全球范围内建立话语权。通过开源，中国的技术标准和创新思路将得到更多国际认可，为全球AI生态的多元化发展贡献力量。
@@ -142,6 +142,6 @@ root和name方便进行特定查找
 
 ![ref1]**谢谢观看**
 
-[ref1]: Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.001.jpeg
-[ref2]: Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.003.jpeg
-[ref3]: Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.005.jpeg
+[ref1]: md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.001.jpeg
+[ref2]: md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.003.jpeg
+[ref3]: md_graphs/Aspose.Words.c59f8d14-be30-4297-a42c-cceb2ebd2ae2.005.jpeg
